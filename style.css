@@ -1,0 +1,55 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#WhatsApp {
+  margin: 100px 0;
+}
+#WhatsApp .chat {
+  width: 100%;
+  background-color: #e4ecff;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px 0;
+}
+#WhatsApp .message {
+  height: 280px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+#WhatsApp .message .end {
+  text-align: end;
+}
+#WhatsApp .message .line {
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #7991e7;
+  color: white;
+  text-align: start;
+  max-width: 50%;
+}
+#WhatsApp .text {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#WhatsApp .text input {
+  border-radius: 20px;
+  border: none;
+  margin-right: 15px;
+}
+#WhatsApp .text .sent {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #90a2d5;
+  color: #ffffff;
+  cursor: pointer;
+}
+#WhatsApp .text .sent h3 {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
